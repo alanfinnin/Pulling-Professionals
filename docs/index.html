@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pulling Professionals</title>
+  <meta content="The dating app taking over the professional space." name="descriptison">
+  <meta content="dating, professional, love, work" name="keywords">
+  <meta content="Group01" name="author">
+
+  <!-- Favicons -->
+  <link href="img/pulling_professionals_logo3.png" rel="icon"> <!-- redo -->
+  <link href="img/pulling_professionals_logo3.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Vlava - v2.0.0
+  * Template URL: https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+<?php 
+session_start();
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+	header("Location: http://hive.csis.ul.ie/cs4116/group01/home.php");
+}
+?>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <!--<img src="img/pulling_professionals_logo3.png" alt="Pulling Professionals Logo" style="height:100px;>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="#"><img src="img/pulling_professionals_logo3.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="registration.php">Register</a></li>
+          <li><a href="login.php">Login</a></li>
+          
+          <!--<li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>-->
+          <li><a href="#support">Support</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Pulling Professionals</h1>
+      <h2>Bringing the professional world to you</h2>
+      <a href="registration.php" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Ready to open up to a world of new dating potential?</h2>
+            <h3>Being a professional is hard, want to finally see the benifits?</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Long hours? Early mornings and late nights? Are you putting in so much effort to come back to an empty home, no one to work for? No one to love? Well we have 
+			  a solution for you! With Pulling Profesionals we can match you with other workers in your field, people who will really appreciate the hard work you do.<br>Are you ready to start?
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Interests & Hobbies taken into account</li>
+              <li><i class="ri-check-double-line"></i> Robust patented match software ready to find you a partner</li>
+              <li><i class="ri-check-double-line"></i> Ability to support us</li>
+            </ul>
+            <p class="font-italic">
+              If any of those sounds appealing to you, remember, Pulling Professionals will always be free, pop in and give it a go!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>What do we provide?</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">Stunning User Interface</a></h4>
+            <p class="description">Some of our brightest minds have come together to bring you a unique user interface, built only for the true professionals.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="">A Strong Team</a></h4>
+            <p class="description">Behind the scenes we have a talented team of analysts watching over the data, making sure you get the best experience possible.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">A Huge World</a></h4>
+            <p class="description">With our elite users, we can open your life up to all sorts of new opportunities.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-image"></i></div>
+            <h4 class="title"><a href="">Express Yourself</a></h4>
+            <p class="description">We give every user the oppertunity to show who they are. Not your celebrity ego or outside identify, we want you to be able to express yourself.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-settings"></i></div>
+            <h4 class="title"><a href="">Personalise</a></h4>
+            <p class="description">We give lots of options to talor the Pulling Professionals experience to your liking, you are both the customer and the professional.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="icofont-tasks-alt"></i></div>
+            <h4 class="title"><a href="">Time</a></h4>
+            <p class="description">Think Pulling Professionals is only for old people? That your maybe even too old? Well your wrong, this site is built for everyone. Are you a professional, well, you'll fit perfectly</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Dolly Parton</h3>
+            <h4>Singer &amp; Songwriter</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Although some say my looks might be aging, I wanted to find love. Using Pulling Professionals I kickstarted my love life again, I owe them the happy family I have now.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Barack Obama</h3>
+            <h4>Former President of USA</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              After a successful presidently I needed to spice things up, with the help of Pulling Professionals I kicked Michelle to the kerp and found new love, Thank you Pulling Professionals!.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Bill Gates</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              After making my billions I wanted excitment. I was done with normality, whats a billion dollars if I can't use it. I used Pulling Professionals to find my now girlfriend Catherine, a real catch.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Daniel O'donnell</h3>
+            <h4>Singer &amp; television presenter</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              With all those women after me I needed to settle down and get a real family. I used pulling professionals to find a partner who was really interested, not for who I was on stage, but in me. Pulling professionals let me do that!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>Michael D Higgons</h3>
+            <h4>President of Ireland</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Being my age it can be hard to find love, being the president makes it even harder. using Pulling Professionals means I could quickly enter the dating pool as an equal. People didn't see me as president, but as Michael. thank you Pulling Professionals!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <!--<section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Sit sint consectetur velit. Quisquam quos quisquam cupiditate</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Support Section ======= -->
+    <section id="support" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Support</h2>
+          <p>What we provide is a free service for the benifit of everyone, but we do allow you to give support if you want. With minor perks.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3>Bronze</h3>
+              <h4><sup>&euro;</sup>5<span> / month</span></h4>
+              <ul>
+                <li>Letter of thanks</li>
+                <li>Can give site suggestions</li>
+                <li class="na">Group discord</li>
+                <li class="na">Peronsalised thank you letter</li>
+                <li class="na">Call with Dolly Parton</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Contribute</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3>Silver</h3>
+              <h4><sup>&euro;</sup>25<span> / month</span></h4>
+              <ul>
+                <li>Letter of thanks</li>
+                <li>Can give site suggestions</li>
+                <li>Group discord</li>
+                <li>Peronsalised thank you letter</li>
+                <li class="na">Call with Dolly Parton</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Contribute</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <h3>Gold</h3>
+              <h4><sup>&euro;</sup>50<span> / month</span></h4>
+              <ul>
+                <li>Letter of thanks</li>
+                <li>Can give site suggestions</li>
+                <li>Group discord</li>
+                <li>Peronsalised thank you letter</li>
+                <li>Call with Dolly Parton</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Contribute</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="row  d-flex align-items-stretch">
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>How old do I have to be to use the site?</h4>
+            <p>
+              You must be at least 25 years old to use the site. This may seem old, but we aim for true experienced professionals in the site. Thanks!
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>Will I find love in this site?</h4>
+            <p>
+              We can't promise anything, but with our advanced match technology, hard work and a bit of luck, you'll get matches in no time!
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>Does using the site cost money?</h4>
+            <p>
+              Pulling Profesionals will always be free, we know that even for true professionals money is still important. But we do give the option to support of us if you want!
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>I'm an older gentlement, do I have a chance?</h4>
+            <p>
+              If we can find Daniel O'donnall love, we can do it for anyone!
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>What counts as a professinal? I'm a trademen for reference.</h4>
+            <p>
+              It's not who we consider professionals that matters. Do you consider yourself one? Do you think you should play in the big leagues of Pulling Professionals? (hint: Hell yeah you do!)
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item">
+            <i class="bx bx-help-circle"></i>
+            <h4>How much time do I need to give to the site before I get matches?</h4>
+            <p>
+              Being a professional is hard work, we understand. using our patented Smart Search Technology&trade; we will work in the background. No work required. Just pop back in a few days and we should be ready!
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>We are based in the university of Limerick but our reach is all over the world!</p>
+        </div>
+      </div>
+      <div class="map">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d112609.49479253285!2d-8.61148547833435!3d52.70505589959421!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca7febf3aac3fc2d!2sUniversity%20of%20Limerick!5e0!3m2!1sen!2sie!4v1587409412599!5m2!1sen!2sie" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>University of Limerick<br>Limerick, Ireland</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>17239621@studentmail.ul.ie<br>17219477@studentmail.ul.ie<br>17234956@studentmail.ul.ie<br>17241448@studentmail.ul.ie</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>We'd rather you didn't</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>Pulling Professionals</h3>
+            <p>Bringing the professional world to you</p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Pulling Professionals</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
