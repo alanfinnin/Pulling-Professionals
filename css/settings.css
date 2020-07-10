@@ -1,0 +1,132 @@
+/*============= RESETS =============*/
+
+/*-- iPhone X Remove Gutters --*/
+
+/*-- Body Font --*/
+body{
+   font-family: 'Lato',sans-serif;
+   color: #505962;
+   background-image: url('../img/background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+   height: 2rem
+}
+.navbar{
+   /** left right then top bottom **/
+   padding: .6rem 1rem;
+   letter-spacing: .1rem;
+   background-color: rgba(57, 63, 70, .9);
+
+}
+.navbar-nav li{
+  padding-right: 20rem;
+  padding-left: 10rem;
+
+}
+/** Search Bar **/
+.navbar-nav form{
+   width: 400px;
+   padding-right: 10rem;
+}
+
+.navbar-nav .navlink {
+   padding-top: .8rem;
+   color:white
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+   color: #00b3ff;
+}
+.svg-inline--fa.fa-bars {
+   color: white;
+
+   font-size:1.6rem
+}
+/*-- Remove Button Outline --*/
+button:active, button:focus {
+   outline:0;
+}
+
+.dropdown  {
+   padding-top: 20px;
+   
+}
+
+
+
+
+.caption{
+   z-index:1;
+   top:10%
+}
+
+
+
+
+footer {
+   background: #222;
+   color: #aaa;
+   padding-top: 10px;
+ }
+footer a {
+   color: #0894d1;
+   letter-spacing: 2px;
+   margin: 3px 0 20px;
+}
+
+/*============= ABOUT SECTION =============*/
+
+
+
+/*-- Scrollspy Offset --*/
+
+/*============= PORTFOLIO SECTION =============*/
+
+
+
+/*============= TESTIMONIALS SECTION =============*/
+
+
+
+/*============= CONTACT SECTION =============*/
+
+
+/*-- Contact Form --*/
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+@media(max-width: 767px) {
+   .caption {
+      top:20%;
+   }
+   .caption h1 {
+      font-size: 1.8rem;
+   }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

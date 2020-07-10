@@ -1,0 +1,49 @@
+#block{
+
+}
+
+#emailContainer {
+   background-color: lightgray;
+   border : 2px solid black;
+}
+
+#passwordContainer {
+   background-color: lightgray;
+   border : 2px solid black;
+}
+#emailFields {
+
+}
+
+#emailFields div div {
+   height: 50px;
+   display: flex;
+   align-items: center
+}
+
+#emailFields div div label {
+   width: 150px;
+   font-weight: bold;
+
+
+
+}
+
+#emailFields div div input {
+   width: 200px;
+
+
+
+}
+
+#settingHeading {
+   margin-top: 20px;
+
+
+
+   font-weight: bold;
+   
+   
+
+
+}

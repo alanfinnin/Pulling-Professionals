@@ -1,0 +1,70 @@
+html{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list-group-item, .list-group{
+	padding-top: 3%;
+}
+#header{
+	background-color: #007bff;
+	padding-top: 1.5vh;
+	}
+.picture{
+	border-radius: 50%;
+	width: 5vw;
+	height: 5vw;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.mainBlock{
+	background-color: #60a3bc;
+}
+.userInfoForm{
+	text-align: center;
+}
+label{
+	width: 5vw;
+	padding-top: 2%;
+}
+hr{
+	width: 60%;
+}
+p{ 
+	display: inline;
+	font-size: 150%;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+ul button{
+	float: right;
+}
+.form-control {
+    display: inline-block;
+	width: 25% !important;
+}
+.userInfoForm input{
+	padding: 0.5em;
+	border: 1px solid silver;
+	color: black;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+input:hover{
+	background-color: #f5f2f2;
+}
+p.registrationHeader{
+	padding-top: 150px;
+	text-align: center;
+	color: #ffffff;
+}
+li:hover{
+	background-color: #f0ebeb;
+}
+.registration{
+	padding-top: 3%;
+}
+.mainBox{
+	background-color: #ffffff;
+}
